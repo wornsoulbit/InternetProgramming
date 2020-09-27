@@ -1,0 +1,149 @@
+nav {
+    background-color: lightblue;
+    margin-left: 345px;
+    align-content: center;
+    height: 35px;
+    border: 2px solid blue;
+    width: 1200px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: midnightblue;
+}
+
+a:hover {
+    color: midnightblue;
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+    background-color: lightskyblue;
+}
+
+a:active {
+    font-style: italic;
+}
+
+a:link {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+#currentpage {
+    color: darkblue;
+    text-decoration: none;
+}
+
+img {
+    background-color: lightgray;
+    border: 5px solid black;
+}
+
+footer {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+figcaption {
+    color: blue;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.PageTitle {
+    text-align: center;
+}
+
+.bigText {
+    font-size: large;
+}
+
+#orderedList {
+    list-style-type: upper-roman;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#orderedList li {
+    border: 1px dashed;
+}
+
+#orderedList li:hover {
+    background-color: violet;
+}
+
+#unorderedList {
+    border: 2px dotted;
+}
+
+#unorderedList li {
+    border: 2px double;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 5px;
+}
+
+#unorderedList li:hover {
+    background-image: url("../image/img1.jpg");
+}
+
+#table1 {
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table1 thead {
+    background-color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border: 2px solid;
+}
+
+#table1 th, td {
+    border: 1px solid;
+}
+
+#table1 tbody tr:nth-child(odd) {
+    background-color: darkgray;
+}
+
+#table1 tbody tr:hover {
+    background-color: violet;
+}
+
+#table1 tfoot {
+    background-color: lightsalmon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    border-style: outset;
+    text-shadow: 1px 1px 1px blueviolet;
+}

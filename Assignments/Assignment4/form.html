@@ -1,0 +1,134 @@
+<!Doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+        <link rel="manifest" href="image/site.webmanifest">
+        <title>Assignment1 Rocket League</title>
+    </head>
+<body>
+    <div class="container">
+        <head>
+            <nav class="sitenav">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="lists.html">Lists</a>
+            <a href="contact.html">Contact</a>
+            <a href="tables.html">Tables</a>
+            <a id="currentpage" href="form.html">Form</a>
+            <a href="https://www.rocketleague.com/" target="_blank">Rocket League Site</a></nav>
+        </head>
+
+    <br>
+    <br>
+    <div id="container">
+        <article>
+            <form>
+                <fieldset id="studentInfo">
+                    <legend>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        </svg>
+                        Student Information
+                    </legend>
+                    <label>Student ID:</label><br>
+                    <textarea name="id" id="id" rows="1" cols="120" 
+                    placeholder="Enter your Student ID(digits only)"></textarea><br>
+
+                    <label>First Name:</label><br>
+                    <textarea name="fName" id="fName" rows="1" cols="120" placeholder="First Name"></textarea><br>
+
+                    <label>Last Name:</label><br>
+                    <textarea name="lName" id="lName" rows="1" cols="120" placeholder="Last Name"></textarea><br>
+
+                    <label id="user">Username:</label>
+                    <label id="password">Password:</label><br>
+
+                    <input type="text" id="user" name="user" placeholder="Username">
+                    <input type="text" id="passwd" name="passwd" placeholder="Password"><br>
+
+                    <label id="DoB">Date of Birth:</label> <br>
+                    <input type="date" id="birthday" name="birthday" placeholder="YYYY-MM-DD">
+
+                    <label id="courses">Courses:</label>
+                    <select name="coursesSel" id="coursesSel">
+                        <option value=""></option>
+                        <option value="Unix">Unix</option>
+                        <option value="Programming Patterns">Programming Patterns</option>
+                        <option value="Internet Programming">Internet Programming</option>
+                        <option value="App Development">App Development</option>
+                    </select><br>
+
+                    <label>Select campus:</label><br>
+                    
+                    <input type="radio" id="laval" name="campus" value="laval">
+                    <label>Laval</label>
+                    <input type="radio" id="montreal" name="campus" value="montreal">
+                    <label>Montreal</label>
+                    <input type="radio" id="longueuil" name="campus" value="longueuil">
+                    <label>Longueuil</label><br><br>
+                    
+                    <label>Select Schedule Preference:</label><br>
+
+                    <input type="checkbox" id="mornClass" name="scheduleType" value="mornClass">
+                    <label>Morning Classes</label>
+                    <input type="checkbox" id="evenClass" name="scheduleType" value="evenClass">
+                    <label>Evening Classes</label>
+                    <input type="checkbox" id="b2bClasses" name="scheduleType" value="b2bClasses">
+                    <label>Back to Back Classes</label>
+                    <input type="checkbox" id="noPref" name="scheduleType" value="noPref">
+                    <label>No Preference</label>
+                </fieldset>
+
+                <fieldset id="contactInfo">
+                    <legend>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                        </svg>
+                        Contact Information
+                    </legend>
+
+                    <label id="emailLabel">Email:</label>
+                    <label id="phoneLabel">Phone #</label>
+                    <label id="favColLabel">Favorite Color:</label><br>
+
+                    <input type="text" id="email" name="email" placeholder="example@example.com">
+                    <input type="text" id="phoneNum" name="phoneNum" placeholder="999-999-9999">
+                    <input type="color" id="favColor" name="favColor"> <br><br>
+                </fieldset>
+
+                <fieldset id="addressInfo">
+                    <legend>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        Address Information
+                    </legend>
+
+                    <label>Street:</label><br>
+                    <input type="text" id="street" name="street" placeholder="Street Name"><br>
+
+                    <label>City:</label><br>
+                    <input type="text" id="city" name="city" placeholder="City"><br>
+
+                    <label id="provinceLabel">Province:</label>
+                    <label id="postCodeLabel">Postal Code:</label><br>
+                    <input type="text" id="province" name="province" placeholder="Province">
+                    <input type="text" id="postalCode" name="postalCode" placeholder="A1A 1A1"><br><br>
+
+                    <label>Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="120" placeholder="Any Comments?"></textarea>
+                </fieldset>
+
+                <input type="reset" id="reset">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </article>
+</div>
+</body>
+</html>

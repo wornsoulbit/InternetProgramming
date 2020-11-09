@@ -147,3 +147,60 @@ figcaption {
     border-style: outset;
     text-shadow: 1px 1px 1px blueviolet;
 }
+
+/* Form.html css code */
+
+#submit {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+#reset {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+input:hover, textarea:hover {
+    background-color: yellow;
+}
+
+#montreal, #longueuil {
+    margin-left: 100px;
+}
+
+#courses {
+    margin-left: 100px;
+}
+
+#studentInfo {
+    border: none;
+}
+
+#contactInfo, #addressInfo {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+#phoneNum, #favColor {
+    margin-left: 100px;
+}
+
+#phoneLabel {
+    margin-left: 205px;
+}
+
+#favColLabel {
+    margin-left: 195px;
+}
+
+#postalCode {
+    margin-left: 100px;
+}
+
+#postCodeLabel {
+    margin-left: 186px;
+}
+

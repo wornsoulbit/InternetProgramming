@@ -1,0 +1,42 @@
+.card-img-top {
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+}
+
+#searchBox {
+    float: right;
+}
+
+#itemsCards {
+    margin-top: 10px;
+}
+
+.alert-success, .alert-danger {
+    text-align: center;
+    margin-left: 400px;
+    width: 30%;
+}
+
+.card {
+    background-color: #121129;
+    text-align: center;
+}
+
+.card-body {
+    color: white;
+}
+
+.table {
+    color: white;
+}
+
+body {
+    background-color: #121129;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 30px;
+}

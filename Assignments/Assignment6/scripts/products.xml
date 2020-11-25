@@ -1,0 +1,277 @@
+<products>
+    <category>
+        <catId>0</catId>
+        <catName>Games</catName>
+        <catDesc>Various console/PC games</catDesc>
+        <items>
+            <item>
+                <itemId>0</itemId>
+                <itemTitle>Celeste</itemTitle>
+                <itemDesc>Platformer</itemDesc>
+                <itemBrand>Matt Makes Games</itemBrand>
+                <unitPrice>19.99</unitPrice>
+                <quantityInStock>10</quantityInStock>
+                <make>Matt Makes Games</make>
+                <thumbnail>Images\\1200px-Celeste_box_art_final.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>6</itemId>
+                <itemTitle>Factorio</itemTitle>
+                <itemDesc>Factory Survival</itemDesc>
+                <itemBrand>Wube Software</itemBrand>
+                <unitPrice>30.00</unitPrice>
+                <quantityInStock>5</quantityInStock>
+                <make>Wube Software</make>
+                <thumbnail>Images\\capsule_616x353.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>7</itemId>
+                <itemTitle>Europa Universalis 4</itemTitle>
+                <itemDesc>Grand Strategy Game</itemDesc>
+                <itemBrand>Paradoc Interactive</itemBrand>
+                <unitPrice>39.99</unitPrice>
+                <quantityInStock>5</quantityInStock>
+                <make>PDX</make>
+                <thumbnail>Images\\EuropaUniversalisIV_Packshot_edited.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>16</itemId>
+                <itemTitle>Far Cry 6</itemTitle>
+                <itemDesc>Far From Crying</itemDesc>
+                <itemBrand>Ubisoft Toronto</itemBrand>
+                <unitPrice>79.99</unitPrice>
+                <quantityInStock>2</quantityInStock>
+                <make>Ubisoft Toronto</make>
+                <thumbnail>Images\\far-cry-6-placeholder-1594397352824.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>17</itemId>
+                <itemTitle>Osu!</itemTitle>
+                <itemDesc>Click those circles!</itemDesc>
+                <itemBrand>Dean Herbert</itemBrand>
+                <unitPrice>0</unitPrice>
+                <quantityInStock>1000</quantityInStock>
+                <make>Dean Herbert</make>
+                <thumbnail>Images\\1200px-Osu!Logo_(2015).svg.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>18</itemId>
+                <itemTitle>Rocket League</itemTitle>
+                <itemDesc>Car soccer</itemDesc>
+                <itemBrand>Pysonix</itemBrand>
+                <unitPrice>0</unitPrice>
+                <quantityInStock>1000</quantityInStock>
+                <make>Pysonix</make>
+                <thumbnail>Images\\rocket-league-switch-hero.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>19</itemId>
+                <itemTitle>Skyrim</itemTitle>
+                <itemDesc>Open World</itemDesc>
+                <itemBrand>Bethesda</itemBrand>
+                <unitPrice>19.99</unitPrice>
+                <quantityInStock>10</quantityInStock>
+                <make>Bethesda</make>
+                <thumbnail>Images\\220px-The_Elder_Scrolls_V_Skyrim_cover.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>1</catId>
+        <catName>Consoles</catName>
+        <catDesc>Various Consoles</catDesc>
+        <items>
+            <item>
+                <itemId>1</itemId>
+                <itemTitle>PS5</itemTitle>
+                <itemDesc>Playstation 5</itemDesc>
+                <itemBrand>Sony</itemBrand>
+                <unitPrice>499.99</unitPrice>
+                <quantityInStock>5</quantityInStock>
+                <make>Sony</make>
+                <thumbnail>Images\\ps560.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>2</itemId>
+                <itemTitle>Xbox Series X</itemTitle>
+                <itemDesc>Xbox Series X</itemDesc>
+                <itemBrand>Microsoft</itemBrand>
+                <unitPrice>499.99</unitPrice>
+                <quantityInStock>5</quantityInStock>
+                <make>Microsoft</make>
+                <thumbnail>Images\\NsoHYKDiUwbnB4smAF4UGE.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>3</itemId>
+                <itemTitle>Xbox Series S</itemTitle>
+                <itemDesc>Xbox Series S</itemDesc>
+                <itemBrand>Microsoft</itemBrand>
+                <unitPrice>499.99</unitPrice>
+                <quantityInStock>5</quantityInStock>
+                <make>Microsoft</make>
+                <thumbnail>Images\\NsoHYKDiUwbnB4smAF4UGE.jpg</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>2</catId>
+        <catName>Laptops</catName>
+        <catDesc>Various Laptops</catDesc>
+        <items>
+            <item>
+                <itemId>4</itemId>
+                <itemTitle>LG Gram 17"</itemTitle>
+                <itemDesc>Lightweight &amp; High performance Laptop</itemDesc>
+                <itemBrand>LG</itemBrand>
+                <unitPrice>1699.99</unitPrice>
+                <quantityInStock>4</quantityInStock>
+                <make>LG</make>
+                <thumbnail>Images\\350-v1.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>5</itemId>
+                <itemTitle>ROG Zephyrus G15 Series</itemTitle>
+                <itemDesc>Gaming Laptop</itemDesc>
+                <itemBrand>Asus</itemBrand>
+                <unitPrice>1399.99</unitPrice>
+                <quantityInStock>3</quantityInStock>
+                <make>Asus</make>
+                <thumbnail>Images\\capsule_616x353.jpg</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>3</catId>
+        <catName>Desktops</catName>
+        <catDesc>Various Desktops</catDesc>
+        <items>
+            <item>
+                <itemId>13</itemId>
+                <itemTitle>NZXT Starter PC</itemTitle>
+                <itemDesc>Entry Level Desktop PC</itemDesc>
+                <itemBrand>NZXT</itemBrand>
+                <unitPrice>699.99</unitPrice>
+                <quantityInStock>2</quantityInStock>
+                <make>NZXT</make>
+                <thumbnail>Images\\images_gallery_5f60d3b49393c.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>4</catId>
+        <catName>Keyboards</catName>
+        <catDesc>Keyboards</catDesc>
+        <items>
+            <item>
+                <itemId>8</itemId>
+                <itemTitle>Ducky One Two RGB TKL</itemTitle>
+                <itemDesc>Mechanical Keyboard</itemDesc>
+                <itemBrand>Ducky</itemBrand>
+                <unitPrice>125.00</unitPrice>
+                <quantityInStock>3</quantityInStock>
+                <make>Ducky</make>
+                <thumbnail>Images\\large_4284_large_DKON1787ST-USPDAZT1_main.jpg</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>5</catId>
+        <catName>Mouses</catName>
+        <catDesc>Mouses for Pcs/Consoles</catDesc>
+        <items>
+            <item>
+                <itemId>9</itemId>
+                <itemTitle>Razer Naga Trinity</itemTitle>
+                <itemDesc>Razer Mouse</itemDesc>
+                <itemBrand>Razer</itemBrand>
+                <unitPrice>99.99</unitPrice>
+                <quantityInStock>3</quantityInStock>
+                <make>Razer</make>
+                <thumbnail>Images\\razerNagaTrinity.jpg</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>6</catId>
+        <catName>Controllers</catName>
+        <catDesc>Controllers for consoles</catDesc>
+        <items>
+            <item>
+                <itemId>10</itemId>
+                <itemTitle>PS5 Controller</itemTitle>
+                <itemDesc>Playstation Controller</itemDesc>
+                <itemBrand>Sony</itemBrand>
+                <unitPrice>49.99</unitPrice>
+                <quantityInStock>3</quantityInStock>
+                <make>Sony</make>
+                <thumbnail>Images\\DualSense-Controller.webp</thumbnail>
+            </item>
+
+            <item>
+                <itemId>11</itemId>
+                <itemTitle>Xbox X Controller</itemTitle>
+                <itemDesc>Xbox X Controller</itemDesc>
+                <itemBrand>Microsoft</itemBrand>
+                <unitPrice>49.99</unitPrice>
+                <quantityInStock>7</quantityInStock>
+                <make>Microsoft</make>
+                <thumbnail>Images\\index.jpg</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>7</catId>
+        <catName>Headphones</catName>
+        <catDesc>Headphones</catDesc>
+        <items>
+            <item>
+                <itemId>12</itemId>
+                <itemTitle>HyperX Cloud II</itemTitle>
+                <itemDesc>HyperX Headphones</itemDesc>
+                <itemBrand>HyperX</itemBrand>
+                <unitPrice>99.99</unitPrice>
+                <quantityInStock>7</quantityInStock>
+                <make>HyperX</make>
+                <thumbnail>Images\\hyperXHeadphones.jpg</thumbnail>
+            </item>
+
+            <item>
+                <itemId>14</itemId>
+                <itemTitle>Razer Blackshark v2</itemTitle>
+                <itemDesc>Wireless Razer Headphones</itemDesc>
+                <itemBrand>Razer</itemBrand>
+                <unitPrice>179.99</unitPrice>
+                <quantityInStock>4</quantityInStock>
+                <make>Razer</make>
+                <thumbnail>Images\\2020-07-30-product-7.webp</thumbnail>
+            </item>
+
+            <item>
+                <itemId>15</itemId>
+                <itemTitle>Razer Blackshark v2x</itemTitle>
+                <itemDesc>Wired Razer Headphones</itemDesc>
+                <itemBrand>Razer</itemBrand>
+                <unitPrice>59.99</unitPrice>
+                <quantityInStock>7</quantityInStock>
+                <make>Razer</make>
+                <thumbnail>Images\\2020-07-30-product-7.webp</thumbnail>
+            </item>
+        </items>
+    </category>
+</products>

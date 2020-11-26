@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Assignment 5</title>
+        <title>Assignment 6</title>
         <!-- Bootstrap css-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -24,11 +24,11 @@
         <div class="container">
             <h1>Super Awesome Webpage Totally not a Scam</h1>
             <div id="navButtons">
-                <button id="loadPageBtn" class="btn btn-secondary" onclick="showListOfItems()">Home: <i class="fas fa-laptop-house"></i></button>
+                <button id="loadPageBtn" class="btn btn-secondary" onclick="setUpCart()">Home: <i class="fas fa-laptop-house"></i></button>
                 <button id="cartBtn" class="btn btn-primary" onclick="viewCart()">View Cart: <i class="fas fa-shopping-cart"></i></button>
                 <div id="searchBox">
                     <input type="search" id="textbox" oninput="makeAjaxCall()">
-                    <button id="searchBtn" class="btn btn-dark" onclick="makeAjaxCall()"><i class="fas fa-search"></i></button>
+                    <button id="searchBtn" class="btn btn-dark" onclick="searchByKeyword()"><i class="fas fa-search"></i></button>
                 </div>
             </div>
             <div id="alertBox"></div>

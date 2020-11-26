@@ -161,9 +161,13 @@ function makeAjaxCall() {
     ajaxObj = new XMLHttpRequest();
     keyword = document.getElementById("textbox").value;
     console.log(keyword);
-    ajaxObj.open("GET", "scripts\\search.php?query=" + keyword, true);
-    ajaxObj.onreadystatechange = processResponse;
-    ajaxObj.send();
+    if (keyword != "") {
+        ajaxObj.open("GET", "search.php?query=" + keyword, true);
+        ajaxObj.onreadystatechange = processResponse;
+        ajaxObj.send();
+    } else {
+        setUpCart();
+    }
 }
 
 /**
@@ -172,15 +176,30 @@ function makeAjaxCall() {
  */
 function processResponse() {
     if (ajaxObj.readyState === XMLHttpRequest.DONE) {
+        document.getElementById("itemsCards").innerHTML = "";
         let stringResponse = ajaxObj.responseText;
-        console.log(stringResponse);
         parseJsonData(stringResponse);
+        showListOfItems();
     }
 }
 
+/**
+ * Parses the JSON response and displays the output onto the webpage.
+ * 
+ * @param { String } strData The JSON data to be parsed.
+ */
 function parseJsonData(strData) {
-    console.log(JSON.parse(strData));
+    let parsedJSON = JSON.parse(strData);
+    let jsonCategories = parsedJSON.categories;
+    catalog = [];
+    categories = [];
 
+    for (var i = 0; i < jsonCategories.length; i++) {
+        categories.push(jsonCategories[i]);
+        for (var j = 0; j < jsonCategories[i].items.length; j++) {
+            catalog.push(jsonCategories[i].items[j]);
+        }
+    }
 }
 
 /**
@@ -373,6 +392,7 @@ function removeFromCart(itemId) {
  * @param { String } keyword 
  */
 function searchByKeyword(keyword) {
+    setUpCart();
     keyword = document.getElementById("textbox").value;
 
     document.getElementById("itemsCards").innerHTML = "";

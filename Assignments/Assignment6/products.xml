@@ -7,8 +7,8 @@
             <item>
                 <itemId>0</itemId>
                 <itemTitle>Celeste</itemTitle>
-                <itemDesc>Platformer</itemDesc>
-                <itemBrand>Matt Makes Games</itemBrand>
+                <desc>Platformer</desc>
+                <brand>Matt Makes Games</brand>
                 <unitPrice>19.99</unitPrice>
                 <quantityInStock>10</quantityInStock>
                 <make>Matt Makes Games</make>
@@ -18,8 +18,8 @@
             <item>
                 <itemId>6</itemId>
                 <itemTitle>Factorio</itemTitle>
-                <itemDesc>Factory Survival</itemDesc>
-                <itemBrand>Wube Software</itemBrand>
+                <desc>Factory Survival</desc>
+                <brand>Wube Software</brand>
                 <unitPrice>30.00</unitPrice>
                 <quantityInStock>5</quantityInStock>
                 <make>Wube Software</make>
@@ -29,8 +29,8 @@
             <item>
                 <itemId>7</itemId>
                 <itemTitle>Europa Universalis 4</itemTitle>
-                <itemDesc>Grand Strategy Game</itemDesc>
-                <itemBrand>Paradoc Interactive</itemBrand>
+                <desc>Grand Strategy Game</desc>
+                <brand>Paradox Interactive</brand>
                 <unitPrice>39.99</unitPrice>
                 <quantityInStock>5</quantityInStock>
                 <make>PDX</make>
@@ -40,8 +40,8 @@
             <item>
                 <itemId>16</itemId>
                 <itemTitle>Far Cry 6</itemTitle>
-                <itemDesc>Far From Crying</itemDesc>
-                <itemBrand>Ubisoft Toronto</itemBrand>
+                <desc>Far From Crying</desc>
+                <brand>Ubisoft Toronto</brand>
                 <unitPrice>79.99</unitPrice>
                 <quantityInStock>2</quantityInStock>
                 <make>Ubisoft Toronto</make>
@@ -51,8 +51,8 @@
             <item>
                 <itemId>17</itemId>
                 <itemTitle>Osu!</itemTitle>
-                <itemDesc>Click those circles!</itemDesc>
-                <itemBrand>Dean Herbert</itemBrand>
+                <desc>Click those circles!</desc>
+                <brand>Dean Herbert</brand>
                 <unitPrice>0</unitPrice>
                 <quantityInStock>1000</quantityInStock>
                 <make>Dean Herbert</make>
@@ -62,8 +62,8 @@
             <item>
                 <itemId>18</itemId>
                 <itemTitle>Rocket League</itemTitle>
-                <itemDesc>Car soccer</itemDesc>
-                <itemBrand>Pysonix</itemBrand>
+                <desc>Car soccer</desc>
+                <brand>Pysonix</brand>
                 <unitPrice>0</unitPrice>
                 <quantityInStock>1000</quantityInStock>
                 <make>Pysonix</make>
@@ -73,8 +73,8 @@
             <item>
                 <itemId>19</itemId>
                 <itemTitle>Skyrim</itemTitle>
-                <itemDesc>Open World</itemDesc>
-                <itemBrand>Bethesda</itemBrand>
+                <desc>Open World</desc>
+                <brand>Bethesda</brand>
                 <unitPrice>19.99</unitPrice>
                 <quantityInStock>10</quantityInStock>
                 <make>Bethesda</make>
@@ -91,8 +91,8 @@
             <item>
                 <itemId>1</itemId>
                 <itemTitle>PS5</itemTitle>
-                <itemDesc>Playstation 5</itemDesc>
-                <itemBrand>Sony</itemBrand>
+                <desc>Playstation 5</desc>
+                <brand>Sony</brand>
                 <unitPrice>499.99</unitPrice>
                 <quantityInStock>5</quantityInStock>
                 <make>Sony</make>
@@ -102,8 +102,8 @@
             <item>
                 <itemId>2</itemId>
                 <itemTitle>Xbox Series X</itemTitle>
-                <itemDesc>Xbox Series X</itemDesc>
-                <itemBrand>Microsoft</itemBrand>
+                <desc>Xbox Series X</desc>
+                <brand>Microsoft</brand>
                 <unitPrice>499.99</unitPrice>
                 <quantityInStock>5</quantityInStock>
                 <make>Microsoft</make>
@@ -113,8 +113,8 @@
             <item>
                 <itemId>3</itemId>
                 <itemTitle>Xbox Series S</itemTitle>
-                <itemDesc>Xbox Series S</itemDesc>
-                <itemBrand>Microsoft</itemBrand>
+                <desc>Xbox Series S</desc>
+                <brand>Microsoft</brand>
                 <unitPrice>499.99</unitPrice>
                 <quantityInStock>5</quantityInStock>
                 <make>Microsoft</make>
@@ -131,8 +131,8 @@
             <item>
                 <itemId>4</itemId>
                 <itemTitle>LG Gram 17"</itemTitle>
-                <itemDesc>Lightweight &amp; High performance Laptop</itemDesc>
-                <itemBrand>LG</itemBrand>
+                <desc>Lightweight and High performance Laptop</desc>
+                <brand>LG</brand>
                 <unitPrice>1699.99</unitPrice>
                 <quantityInStock>4</quantityInStock>
                 <make>LG</make>
@@ -142,12 +142,12 @@
             <item>
                 <itemId>5</itemId>
                 <itemTitle>ROG Zephyrus G15 Series</itemTitle>
-                <itemDesc>Gaming Laptop</itemDesc>
-                <itemBrand>Asus</itemBrand>
+                <desc>Gaming Laptop</desc>
+                <brand>Asus</brand>
                 <unitPrice>1399.99</unitPrice>
                 <quantityInStock>3</quantityInStock>
                 <make>Asus</make>
-                <thumbnail>Images\\capsule_616x353.jpg</thumbnail>
+                <thumbnail>Images\\w250.png</thumbnail>
             </item>
         </items>
     </category>
@@ -160,8 +160,8 @@
             <item>
                 <itemId>13</itemId>
                 <itemTitle>NZXT Starter PC</itemTitle>
-                <itemDesc>Entry Level Desktop PC</itemDesc>
-                <itemBrand>NZXT</itemBrand>
+                <desc>Entry Level Desktop PC</desc>
+                <brand>NZXT</brand>
                 <unitPrice>699.99</unitPrice>
                 <quantityInStock>2</quantityInStock>
                 <make>NZXT</make>
@@ -178,8 +178,8 @@
             <item>
                 <itemId>8</itemId>
                 <itemTitle>Ducky One Two RGB TKL</itemTitle>
-                <itemDesc>Mechanical Keyboard</itemDesc>
-                <itemBrand>Ducky</itemBrand>
+                <desc>Mechanical Keyboard</desc>
+                <brand>Ducky</brand>
                 <unitPrice>125.00</unitPrice>
                 <quantityInStock>3</quantityInStock>
                 <make>Ducky</make>
@@ -196,8 +196,8 @@
             <item>
                 <itemId>9</itemId>
                 <itemTitle>Razer Naga Trinity</itemTitle>
-                <itemDesc>Razer Mouse</itemDesc>
-                <itemBrand>Razer</itemBrand>
+                <desc>Razer Mouse</desc>
+                <brand>Razer</brand>
                 <unitPrice>99.99</unitPrice>
                 <quantityInStock>3</quantityInStock>
                 <make>Razer</make>
@@ -214,8 +214,8 @@
             <item>
                 <itemId>10</itemId>
                 <itemTitle>PS5 Controller</itemTitle>
-                <itemDesc>Playstation Controller</itemDesc>
-                <itemBrand>Sony</itemBrand>
+                <desc>Playstation Controller</desc>
+                <brand>Sony</brand>
                 <unitPrice>49.99</unitPrice>
                 <quantityInStock>3</quantityInStock>
                 <make>Sony</make>
@@ -225,8 +225,8 @@
             <item>
                 <itemId>11</itemId>
                 <itemTitle>Xbox X Controller</itemTitle>
-                <itemDesc>Xbox X Controller</itemDesc>
-                <itemBrand>Microsoft</itemBrand>
+                <desc>Xbox X Controller</desc>
+                <brand>Microsoft</brand>
                 <unitPrice>49.99</unitPrice>
                 <quantityInStock>7</quantityInStock>
                 <make>Microsoft</make>
@@ -243,8 +243,8 @@
             <item>
                 <itemId>12</itemId>
                 <itemTitle>HyperX Cloud II</itemTitle>
-                <itemDesc>HyperX Headphones</itemDesc>
-                <itemBrand>HyperX</itemBrand>
+                <desc>HyperX Headphones</desc>
+                <brand>HyperX</brand>
                 <unitPrice>99.99</unitPrice>
                 <quantityInStock>7</quantityInStock>
                 <make>HyperX</make>
@@ -254,8 +254,8 @@
             <item>
                 <itemId>14</itemId>
                 <itemTitle>Razer Blackshark v2</itemTitle>
-                <itemDesc>Wireless Razer Headphones</itemDesc>
-                <itemBrand>Razer</itemBrand>
+                <desc>Wireless Razer Headphones</desc>
+                <brand>Razer</brand>
                 <unitPrice>179.99</unitPrice>
                 <quantityInStock>4</quantityInStock>
                 <make>Razer</make>
@@ -265,8 +265,8 @@
             <item>
                 <itemId>15</itemId>
                 <itemTitle>Razer Blackshark v2x</itemTitle>
-                <itemDesc>Wired Razer Headphones</itemDesc>
-                <itemBrand>Razer</itemBrand>
+                <desc>Wired Razer Headphones</desc>
+                <brand>Razer</brand>
                 <unitPrice>59.99</unitPrice>
                 <quantityInStock>7</quantityInStock>
                 <make>Razer</make>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+	<product>
+		<id>1</id>
+		<code>MAIN-45415</code>
+		<title>LG Electronics OLED65B6P Flat 65-Inch 4K Ultra HD Smart OLED TV</title>
+		<description>Key Features: Perfect Black, Cinematic Color, OLED HDR</description>
+		<category>TV</category>
+		<unitPrice>2496.99</unitPrice>
+		<quantity>10</quantity>
+		<color>Black</color>
+		<supplier>LG</supplier>
+	</product>
+	<product>
+		<id>2</id>
+		<code>B06ZYC2YTW</code>
+		<title>Huawei P10 Lite, WAS-LX3, Factory Unlocked 32GB Smartphone</title>
+		<description>Cellular Network Supported: 4FDD LTE: Band 2/4/5/7/28 UMTS. Memory: 3GB RAM + 32GB ROM Supports Micro SD up to 256GB. Camera: Rear: Rear: 12MP, 1/2.8 inch sensor and 1.25 µm single pixel Front: 8MP</description>
+		<category>Cell Phone</category>
+		<unitPrice>343.25</unitPrice>
+		<quantity>140</quantity>
+		<color>Graphite Black</color>
+		<supplier>Huawei</supplier>
+	</product>
+	<product>
+		<id>3</id>
+		<code>ZA1U0003US</code>
+		<title>Lenovo Tablet 10.1inch </title>
+		<description>HD Touchscreen 1280 x 800 (2 GB RAM, Qualcomm Quad-core 1.30 GHz, 16GB Storage</description>
+		<category>Tablet</category>
+		<unitPrice>174.99</unitPrice>
+		<quantity>355</quantity>
+		<color>Black</color>
+		<supplier>Lenovo</supplier>
+	</product>
+	<product>
+		<id>4</id>
+		<code>AZ4225-44</code>
+		<title>Kindle E-reader -  6inch, Wi-Fi</title>
+		<description>All-new design is thinner and lighter. Easy on your eyes—touchscreen display reads like real paper. No screen glare, even in bright sunlight, unlike tablets.</description>
+		<category>Ebook</category>
+		<unitPrice>79.99</unitPrice>
+		<quantity>88</quantity>
+		<color>Black</color>
+		<supplier>Amazon</supplier>
+	</product>
+	<product>
+		<id>5</id>
+		<code>F0V69A</code>
+		<title>HP Envy 4520 Wireless All-in-One Photo Printer with Mobile Printing</title>
+		<description>You can afford to be creative with HP instant ink. Easy photo printing from mobile device your device, your choice. Easily print documents and photos from a variety of smartphones and tablets.</description>
+		<category>Printer</category>
+		<unitPrice>39.91</unitPrice>
+		<quantity>78</quantity>
+		<color>Black</color>
+		<supplier>HP</supplier>
+	</product>
+	<product>
+		<id>6</id>
+		<code></code>
+		<title>AGPTEK 70 Hours Music Playback MP3</title>
+		<description>Lossless Sound Entry Hi-Fi 8GB Music Player (Supports up to 64GB, SD/TF Card is not included in the package)</description>
+		<category>Music Player</category>
+		<unitPrice>37.99</unitPrice>
+		<quantity>51</quantity>
+		<color>Black</color>
+		<supplier>AGPTEK</supplier>
+	</product>
+	<product>
+		<id>7</id>
+		<code>D24HN-E1</code>
+		<title>VIZIO 23.54-Inch 720p LCD Television (2017)</title>
+		<description>Edge Lit LED Backlight, Distributes LEDs along the edge of the screen for a brilliant picture HD Picture, Watch TV in crisp, clear 720p high-definition resolution. 2 (rear) HDMI ports, perfect for connecting all your high definition entertainment devices to the TV. Ambient Light Sensor, Intelligent backlight sensors automatically adjust to surrounding brightness for a great picture in any room.</description>
+		<category>TV</category>
+		<unitPrice>168.00</unitPrice>
+		<quantity>75</quantity>
+		<color>Black</color>
+		<supplier>VIZIO</supplier>
+	</product>
+	<product>
+		<id>8</id>
+		<code>SM G530W</code>
+		<title>Samsung Galaxy GRAND Prime, Unlocked</title>
+		<description>12.7 x 5.1 x 0.5 cm</description>
+		<category>Cell Phone</category>
+		<unitPrice>160.00</unitPrice>
+		<quantity>11</quantity>
+		<color>Grey</color>
+		<supplier>Samsung</supplier>
+	</product>
+	<product>
+		<id>9</id>
+		<code>SM-T560NZWU</code>
+		<title>Samsung Galaxy Tablet Tab E 9.6inch</title>
+		<description>Tab E 9.6inch 16GB Android 5.0 Lollipop. 1 Lithium ion batteries required. (included) Multi-tasking evolved be more productive with multiple applications open at the same time. </description>
+		<category>Tablet</category>
+		<unitPrice>229.99</unitPrice>
+		<quantity>10</quantity>
+		<color>White</color>
+		<supplier>Samsung</supplier>
+	</product>
+	<product>
+		<id>10</id>
+		<code></code>
+		<title>Kindle Paperwhite, 6inch, Wi-Fi</title>
+		<description>High-Resolution Display (300 ppi) with Built-in Light. Built-in adjustable light-read day and night. Unlike tablets, no screen glare, even in bright sunlight. A single battery charge lasts weeks, not hours</description>
+		<category>Ebook</category>
+		<unitPrice>139.99</unitPrice>
+		<quantity>94</quantity>
+		<color>Black</color>
+		<supplier>Amazon</supplier>
+	</product>
+	<product>
+		<id>11</id>
+		<code>DCPL2540DW</code>
+		<title>Brother Wireless Compact Laser 3-in-1 Printer with Wireless Networking and Duplex Printing</title>
+		<description>Up to 30ppm print and copy speeds. Wireless 802.11b/g/n, Ethernet and Hi-Speed USB 2.0 interfaces. 35-page capacity auto document feeder for multi-page documents</description>
+		<category>Printer</category>
+		<unitPrice>169.64</unitPrice>
+		<quantity>65</quantity>
+		<color>Monochrome</color>
+		<supplier>Brother</supplier>
+	</product>
+	<product>
+		<id>12</id>
+		<code></code>
+		<title>Astell and Kern Canada AK70 Portable Music Player Mint</title>
+		<description>24bit/192kHz bit to bit PCM Audio Playback / DSD64, DSD128 (DSF, DFF) Playback Through DoP. Diverse Output Types - 2.5mm Balanced Output and 3.5mm Single Ended. USB Audio and USB DAC Output Compatible. DLNA Network Compatible with AK Connect. 64GB Internal Flash Memory, Single Cirrus-Logic CS4398 DAC</description>
+		<category>Music Player</category>
+		<unitPrice>799.00</unitPrice>
+		<quantity>74</quantity>
+		<color>Mint</color>
+		<supplier>Astell and Kern</supplier>
+	</product>
+	<product>
+		<id>13</id>
+		<code>C201PA-DS02</code>
+		<title>ASUS Chromebook C201 11.6-Inch Laptop (Rockchip Quad-Core RK3288C Processor, 4 GB RAM, 16 GB eMMC, Chrome OS)</title>
+		<description>Trusted Platform Module (TPM) security for protection of sensitive information and Operating System:Chrome OS. Rockchip 3288-C Quad-Core 1.8 GHz processor with 4 GB RAM. Up to 13 Hours Incredible Battery Life. Gigabit Dual-Band 802.11A/C Ultra-fast Wi-Fi. 11.6-Inch HD LED Display. HD Webcam</description>
+		<category>Laptop</category>
+		<unitPrice>269.99</unitPrice>
+		<quantity>73</quantity>
+		<color>Navy Blue</color>
+		<supplier>ASUS</supplier>
+	</product>
+	<product>
+		<id>14</id>
+		<code>14-ax010ca</code>
+		<title>HP Stream 14inch HD Laptop (Celeron N3060 Processor, 4GB RAM, 32GB Storage) with Windows 10 Home</title>
+		<description>Intel Celeron N3060 Processor (1.6GHz with Turbo Boost Technology up to 2.48GHz). 14.0-Inch diagonal HD SVA Brightview WLED-backlit (1366x768) Display. 32GB eMMC drive: Store 21,000 photos, 9,000 songs or 16 hours of HD video and more. 4 GB DDR3L SDRAM (1 DIMM) and 32GB eMMC storage. 2x2 802.11ac WLAN; Bluetooth; Integrated 10/100 BASE-T Ethernet LAN; Front-facing VGA Webcam with integrated digital microphone</description>
+		<category>Laptop</category>
+		<unitPrice>299.88</unitPrice>
+		<quantity>0</quantity>
+		<color>Aqua Blue</color>
+		<supplier>HP</supplier>
+	</product>
+	<product>
+		<id>15</id>
+		<code>UN88KS9810FXZA</code>
+		<title>Samsung KS9810-Series 88inch- Class SUHD Smart Curved LED TV</title>
+		<description>4K SUHD (3840 x 2160) Curved LED Panel. Supreme MR 240 Screen Mirroring Technology. Built-In Wi-Fi Connectivity Access Samsung Smart Hub and Apps. Full Web Browser 4 x HDMI / 3 x USB. Quantum Dot Color Dolby Digital Plus</description>
+		<category>TV</category>
+		<unitPrice>52,060.77</unitPrice>
+		<quantity>1</quantity>
+		<color>Black</color>
+		<supplier>Samsung</supplier>
+	</product>
+	<product>
+		<id>16</id>
+		<code>G6-H870DS/BLK</code>
+		<title>LG G6 - H870DS/BLK - Unlocked Cell Phones </title>
+		<description>32 GB - 5.7inch QHD. International Version – No Warranty. 5.7-inch IPS LCD Capacitive Touchscreen, 1440 x 2880 pixel resolution. Processor: Quad-Core (Dual-Core 2.35 GHz Kryo and Dual-Core 1.6 GHz Kryo), GPU: Adreno 530 RAM: 4 GB, ROM: 64 GB, External Memory: MicroSD (Up to 2 TB). </description>
+		<category>Cell Phone</category>
+		<unitPrice>724.49</unitPrice>
+		<quantity>4</quantity>
+		<color>Black</color>
+		<supplier>LG</supplier>
+	</product>
+	<product>
+		<id>17</id>
+		<code>77-50778</code>
+		<title>LifeProof 230101 Fre iPad Mini 1/2/3, Black</title>
+		<description>Works with iPad mini with Retina display and original iPad mini. The thinnest, lightest all-protective tablet case ever made. Full screen protection and functionality </description>
+		<category>Tablet</category>
+		<unitPrice>79.99</unitPrice>
+		<quantity>59</quantity>
+		<color>Black</color>
+		<supplier>Apple</supplier>
+	</product>
+	<product>
+		<id>18</id>
+		<code>MC516LL/A</code>
+		<title>Apple MacBook MC516LL/A 13.3-Inch Laptop</title>
+		<description>Intel Core 2 Duo Processor 2.4GHz^2GB DDR3 RAM^250GB 5400RPM Hard Drive^13.3-Inch Screen^Mac OS X v10.6 Snow Leopard, 10 hours Battery Life</description>
+		<category>Laptop</category>
+		<unitPrice>358.00</unitPrice>
+		<quantity>3</quantity>
+		<color>White</color>
+		<supplier>Apple</supplier>
+	</product>
+	<product>
+		<id>19</id>
+		<code>XP-440</code>
+		<title>Epson Expression Home Wireless Color Photo Printer with Scanner and Copier</title>
+		<description>Simple setup and navigation, large, hi-res 2.7-h color LCD to easily Print, copy and scan. Complete Wireless solution, easy iPad, iPhone, Android tablet and smartphone printing; includes Wi-Fi. Direct for network-free printing.</description>
+		<category>Printer</category>
+		<unitPrice>59.99</unitPrice>
+		<quantity>93</quantity>
+		<color>Black</color>
+		<supplier>Epson</supplier>
+	</product>
+	<product>
+		<id>20</id>
+		<code>SMP16B</code>
+		<title>AGPTEK Latest UI 70 Hours 8GB Music Playback MP3 Lossless Sound Entry Hi-Fi Music Player</title>
+		<description>FAST-CHARGE and LONGTIME BATTERY TIME: about 2 hours (charges up to 80% of battery capacity) Full-charge time: 3-4 hours. Longtime playback. Up to 70 hours of audio playback when fully charged.</description>
+		<category>Music Player</category>
+		<unitPrice>37.99</unitPrice>
+		<quantity>62</quantity>
+		<color>White</color>
+		<supplier>AGPTEK</supplier>
+	</product>
+</products>

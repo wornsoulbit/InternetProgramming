@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+        <title>Assignment 7</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Style/style.css">
+        <script src="js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <div class="container">
+        <div class="alert alert-primary" role="alert">Fill in the information about the new student</div>
+        <form>
+            <legend>Student Info</legend>
+            <div class="form-group form-inline">
+                <label for="StudentId">Student Id</label>
+                <input type="text" class="form-control" id="studentId" placeholder="Student Id" name="studentId">
+            </div>
+            <div class="form-group form-inline">
+                <label for="fName">First Name</label>
+                <input type="text" class="form-control" id="fName" placeholder="First Name" name="fName">
+            </div>
+            <div class="form-group form-inline">
+                <label for="lName">Last Name</label>
+                <input type="text" class="form-control" id="lName" placeholder="Last Name" name="lName">
+            </div>
+            <div class="form-row">
+                <div class="form-group form-inline">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username" name="username">
+                </div>
+                <div class="form-group form-inline">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group form-inline">
+                    <label for="birthDay">Date of Birth</label>
+                    <input type="date" class="form-control" id="birthDay" name="birthDay">
+                </div>
+                <div class="form-group form-inline">
+                    <label for="gender">Gender</label>
+                    <select class="form-control">
+                        <option>Unspecified</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <legend>Contact</legend>
+            <div class="form-row">
+                <div class="form-group form-inline">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                </div>
+                <div class="form-group form-inline">
+                    <label for="phoneNum">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNum" placeholder="999-999-9999" name="phoneNum">
+                </div>
+            </div>
+
+            <legend>Address</legend>
+            <div class="form-group form-inline">
+                <label for="streetName">Street Name</label>
+                <input type="text" class="form-control" id="streetName" placeholder="Street Name" name="streetName">
+            </div>
+            <div class="form-group form-inline">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" placeholder="City Name" name="city">
+            </div>
+            <div class="form-row">
+                <div class="form-group form-inline">
+                    <label for="province">Province</label>
+                    <input type="text" class="form-control" id="province" placeholder="Province Name" name="province">
+                </div>
+                <div class="form-group form-inline">
+                    <label for="postCode">Postal Code</label>
+                    <input type="text" class="form-control" id="postCode" placeholder="A1A 1A1" name="postCode">
+                </div>
+            </div>
+
+            <button type="reset" class="btn btn-danger" id="resetBtn">Reset</button>
+            <button type="submit"  onclick="validateForm()" class="btn btn-primary" id="submitBtn">Submit</button>
+        </form>
+    </div>
+</html>
